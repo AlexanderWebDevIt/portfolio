@@ -1,0 +1,83 @@
+.container {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, [col] 1fr);
+    grid-template-rows: repeat(3, [row] 1fr);
+    grid-gap: 5px;
+}
+.react {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/react.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}
+.node {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/nodejs.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.express {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/expeess.js.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.mongodb {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/mongodb.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.redux {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/redux.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.axios {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/axios.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.js {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/javascript.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.html {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/html.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.css {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Asset/Image/css.jpeg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}

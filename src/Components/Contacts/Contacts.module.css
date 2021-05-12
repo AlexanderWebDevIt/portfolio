@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+}
+.block {
+    margin: 0 5px;
+}
+.mail {
+    background-color: gold;
+}
+.email {
+    padding: 6px;
+    text-decoration: none;
+}
+.tel {
+    text-decoration: none;
+
+}
+@media screen and (max-width: 540px) {
+    .email {display: none}
+}

@@ -1,0 +1,75 @@
+.item a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, [col] 1fr);
+    grid-template-rows: repeat(2, [row] 1fr);
+}
+.wrapper {
+
+}
+.ul {
+    padding: 0;
+}
+.item {
+    padding: 10px;
+    text-align: center;
+}
+.blok {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.text {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: aliceblue;
+    margin: 30px 0;
+    text-align: center;
+}
+.button {
+    width: 50px;
+    height: 50px;
+}
+.vk {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("../../Asset/Image/vk1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.facebook {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("../../Asset/Image/face.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.git {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("../../Asset/Image/github_logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.instagram {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("../../Asset/Image/insta.png");
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 540px) {
+    .blok {flex-flow: wrap}
+}
